@@ -2,7 +2,7 @@
 
 WITH monthly_sales AS (
 	SELECT 
-		DATE_FORMAT(order_date, '%Y-%b') AS month,
+		DATE_FORMAT(order_date, '%Y-%m') AS month,
         SUM(quantity * unit_price) AS revenue
 	FROM orders 
     WHERE payment_status = 'Paid'
