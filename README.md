@@ -1,4 +1,4 @@
-# Sales Revenue Analysis with SQL
+# Sales Revenue Analysis with SQL 💰
 
 ## Overview
 
